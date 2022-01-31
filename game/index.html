@@ -3,8 +3,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" type="image/png" href="image/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="image/favicon-16x16.png" sizes="16x16" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <style>
+
         #title{
             width:250px; 
             height:200px;
@@ -14,8 +19,12 @@
 
         h1 {
             color: red;
-            font-family: sans-serif;
+            font-family: arial;
             border-bottom: 1px solid blue;
+        }
+        h2 {
+            color: rgb(0, 107, 23);
+            font-family: arial;
         }
 
         blockquote {
@@ -26,11 +35,27 @@
         ul {
             list-style-type: none;
         }
+        body {
+            background-color:  #e3962b;
+        }
+
+        p {
+            margin-left: 100px;
+        }
+
+        main {
+            font-family: sans-serif;
+        }
+        header {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        img.side {float:right; margin: 0 12px;}
     </style>
     <title>Document</title>
 </head>
 
-<body style="background-color:#e3962b;">
+<body>
 
     <object data="image/dig-dug-title-edit.svg"  id="title" type="image/svg+xml">
         <img src="image/dig-dug.png">
@@ -42,7 +67,7 @@
     </header>
 
     <img src="image/dig-dug-burnt.png" alt="Dig Dug">
-    <img src="image/digdugedit.jpg" alt="">
+    <img src="image/digdugedit.jpg" alt=""  class="side">
     <br>
     <a href="big/pic1.html">Link to a big Dig Dug picture.</a>
     <hr>
